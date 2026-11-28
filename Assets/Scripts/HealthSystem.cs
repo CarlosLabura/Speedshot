@@ -31,7 +31,8 @@ public class HealthSystem : MonoBehaviour
     private StarterAssets.StarterAssetsInputs StarterAssetsInputs;
     private void Awake()
     {
-        StarterAssetsInputs = GetComponent<StarterAssets.StarterAssetsInputs>();
+        if (IsPlayer)
+            StarterAssetsInputs = GetComponent<StarterAssets.StarterAssetsInputs>();
     }
     public void Damage(int amount)
     {

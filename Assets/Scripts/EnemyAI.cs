@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.AI;
-public enum EnemyType { Walker, Shooter, Flyer }
+public enum EnemyType { Walker, Shooter }
 public enum EnemyState { Patrol, Following, Dead }
 [RequireComponent(typeof(HealthSystem))]
 [RequireComponent(typeof(NavMeshAgent))]

@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HealthSystem
   IsPlayer: 0
-  MaxHealth: 100
+  MaxHealth: 80
   EnemyDamage: 10
   ProjectileDamage: 20
   RayDamage: 100
